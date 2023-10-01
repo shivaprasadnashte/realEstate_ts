@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Image from "../asets/side.png";
-import gicon from "../asets/icons8-google.svg";
-import ficon from "../asets/icons8-facebook.svg";
-import aicon from "../asets/icons8-apple.svg";
-import picture from "../asets/eyeoff.svg";
+// import gicon from "../asets/icons8-google.svg";
+// import ficon from "../asets/icons8-facebook.svg";
+// import aicon from "../asets/icons8-apple.svg";
+// import picture from "../asets/eyeoff.svg";
 
 function Loginpage() {
   const [formData, setFormData] = useState({
