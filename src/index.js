@@ -8,17 +8,22 @@ import reportWebVitals from './reportWebVitals';
 // import Mobileverifivation from './Components/Mobileverifivation'
 // import Otpverification from './Components/Otpverification'
 // import Otpnotverified from './Components/Otpnotverified'
-import Navbar from './Components/Navbar' 
+// import Navbar from './Components/Navbar' 
+// import Searchpage from './Components/Searchpage';
+import RealCard from './Components/RealCard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <Loginpage/> */}
-   {/* <Signuppage/>
-    <Mobileverifivation/>
+    {/* <Navbar/> */}
+    {/* <Searchpage/> */}
+    {/* <Loginpw */}
+   {/* {<Signuppage/> */}
+   {/* /* <Mobileverifivation/>
     <Otpverification/>
-    <Otpnotverified/> */}
-    <Navbar/>
+    <Otpnotverified/> */} 
+    <RealCard/>
+   
   </React.StrictMode>
 );
 reportWebVitals();
